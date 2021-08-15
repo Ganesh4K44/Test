@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 this is first line in jekins1 file, first modification in dev branch
 
+this is independence day writings  y ganesh kumar
 
 this is second line in jenkins 1 in dev branch second modification
 =======
