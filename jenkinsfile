@@ -1,0 +1,32 @@
+pipeline{
+	
+	agent any
+	
+	stages{
+		
+		stage('code'){
+			steps{
+				echo " perform operations to get code from github"
+			
+			}
+			
+		}
+		
+		stage('Build'){
+			steps{
+			
+				echo " perform operations to build artifact"
+			}
+			
+		}
+		
+		stage('Deploy'){
+			steps{
+				echo "perform operations to deploy this artifact into vaious environments"
+				
+				}
+			}
+	
+	}
+	
+}
